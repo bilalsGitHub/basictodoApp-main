@@ -1,5 +1,5 @@
 React To-Do App
-![Basic todo app screenshot](https://github.com/bilalsGitHub/basictodoApp/assets/99120420/49992817-3545-43fc-8fed-af0b0569166e)
+
 
 A simple to-do app built with React, featuring local storage for data persistence.
 Features
