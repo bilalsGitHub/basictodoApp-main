@@ -1,0 +1,22 @@
+.browncontainer {
+  padding: 10px;
+  margin: 10px;
+  height: 100px;
+  width: 230px;
+  background-color: #ffa500;
+  overflow-y: scroll; /* Set to 'scroll' if you always want to show the scrollbar */
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+/* Add some content to test scrolling */
+.browncontainer-content {
+  height: 150px; /* Adjust the height to trigger vertical overflow */
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+.flexcontainer {
+  width: 350px;
+  height: 400px;
+  flex-direction: column;
+  background-color: #ffd79c; /* Daha profesyonel bir koyu mavi/gri renk */
+  overflow-y: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+.flexcontainer:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.flexcontainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.flexcontainer::-webkit-scrollbar-thumb {
+  background-color: #34495e; /* Daha profesyonel koyu mavi/gri */
+  border-radius: 10px;
+  border: 2px solid #ecf0f1; /* Beyaza yakın bir renk, scrollbar'da kontrast sağlar */
+}
+
+.flexcontainer::-webkit-scrollbar-track {
+  background-color: #bdc3c7; /* Açık gri, daha profesyonel görünüm */
+  border-radius: 10px;
+}

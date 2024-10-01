@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #ff6f00;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+}
+
+.body h2 {
+  color: #fff;
+  margin: 20px;
+  font-size: 24px;
+}
+
+.inputfield {
+  border-radius: 10px;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  align-items: center;
+}
+
+.input {
+  border-radius: 10px;
+  width: 230px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  border: 1px solid #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Focus sırasında hafif bir gölge */
+}
+
+.button {
+  background-color: #2c3e50;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* Buton metin rengi beyaz yapıldı */
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: #f1ead4;
+  color: #2c3e50; /* Hover sırasında metin rengi değiştirildi */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: scale(0.98);
+  background-color: #ece5c7;
+  color: #333; /* Butona tıklandığında metin rengi koyulaştı */
+}
